@@ -1,0 +1,50 @@
+array (
+  'url' => 'https://ringcentral-test.bitrix24.com/rest/crm.timeline.comment.add.json',
+  'info' => 
+  array (
+    'url' => 'https://ringcentral-test.bitrix24.com/rest/crm.timeline.comment.add.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 400,
+    'header_size' => 921,
+    'request_size' => 347,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.087886,
+    'namelookup_time' => 0.013312,
+    'connect_time' => 0.013775,
+    'pretransfer_time' => 0.024384,
+    'size_upload' => 137.0,
+    'size_download' => 52.0,
+    'speed_download' => 591.0,
+    'speed_upload' => 1558.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 137.0,
+    'starttransfer_time' => 0.087837,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '54.83.26.42',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 48960,
+  ),
+  'params' => 
+  array (
+    'method' => 'crm.timeline.comment.add',
+    'params' => 
+    array (
+      'ENTITY_ID' => 22,
+      'ENTITY_TYPE' => 'order',
+      'COMMENT' => 'Order payment rejected',
+      'auth' => 'f631d263006084fb001475fc00000001000007b010bf0b26f2f0ed6d937e4ef8adb5eb',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => '',
+    'error_description' => 'Entity not found.',
+  ),
+)

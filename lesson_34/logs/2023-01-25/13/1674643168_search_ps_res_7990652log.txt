@@ -1,0 +1,48 @@
+array (
+  'Search ps res' => 
+  array (
+    'result' => 
+    array (
+      0 => 
+      array (
+        'ID' => '162',
+        'PERSON_TYPE_ID' => '7',
+        'NAME' => 'E-wallet (Order.Contact)',
+        'PSA_NAME' => 'E-wallet (Order.Contact)',
+        'SORT' => '100',
+        'DESCRIPTION' => NULL,
+        'ACTION_FILE' => 'my_ps_wallet',
+        'RESULT_FILE' => NULL,
+        'NEW_WINDOW' => 'N',
+        'PS_MODE' => NULL,
+        'HAVE_PAYMENT' => 'N',
+        'HAVE_ACTION' => 'N',
+        'HAVE_RESULT' => 'N',
+        'HAVE_PREPAY' => 'N',
+        'HAVE_PRICE' => 'N',
+        'HAVE_RESULT_RECEIVE' => 'Y',
+        'ENCODING' => NULL,
+        'ACTIVE' => 'Y',
+        'ALLOW_EDIT_PAYMENT' => 'Y',
+        'IS_CASH' => 'N',
+        'AUTO_CHANGE_1C' => 'N',
+        'CAN_PRINT_CHECK' => 'N',
+        'ENTITY_REGISTRY_TYPE' => 'ORDER',
+        'XML_ID' => NULL,
+        'LOGOTYPE' => NULL,
+        'TARIFF' => NULL,
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674643168.708806,
+      'finish' => 1674643168.740866,
+      'duration' => 0.03205990791320801,
+      'processing' => 0.002808094024658203,
+      'date_start' => '2023-01-25T13:39:28+03:00',
+      'date_finish' => '2023-01-25T13:39:28+03:00',
+      'operating_reset_at' => 1674643768,
+      'operating' => 0,
+    ),
+  ),
+)

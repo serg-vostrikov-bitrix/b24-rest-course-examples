@@ -1,0 +1,11 @@
+array (
+  'request' => 
+  array (
+    'ORDER_ID' => '22',
+    'MEMBER_ID' => 'aeab563ba48c3ca9de6127932c70a449',
+    'PAYMENT_ID' => '24',
+    'SERVICE_ID' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+    'BX_SYSTEM_PARAMS' => '{"RETURN_URL":"https://b24-c9c4a3.bitrix24.shop/checkout/?ORDER_ID=22&user_lang=en","PAYSYSTEM_ID":"162","PAYMENT_ID":"24","SUM":"929","CURRENCY":"USD"}',
+    'get_detail_data' => '1',
+  ),
+)

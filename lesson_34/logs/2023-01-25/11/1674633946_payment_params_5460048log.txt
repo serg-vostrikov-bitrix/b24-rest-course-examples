@@ -1,0 +1,19 @@
+array (
+  'payment_params' => 
+  array (
+    'ORDER_ID' => '88',
+    'MEMBER_ID' => 'aeab563ba48c3ca9de6127932c70a449',
+    'PAYMENT_ID' => '88',
+    'SERVICE_ID' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+    'BX_SYSTEM_PARAMS' => 
+    array (
+      'RETURN_URL' => 'https%3A%2F%2Fringcentral-test.bitrix24.com%2Fpub%2Fpay%2FMDAwMDA0NQ%2Fb129c95e105303ec3f49ea6a08658994%2F',
+      'PAYSYSTEM_ID' => '156',
+      'PAYMENT_ID' => '88',
+      'SUM' => '600',
+      'CURRENCY' => 'USD',
+      'EXTERNAL_PAYMENT_ID' => 'a5efaa7597f562090c8aca19d89ddd13',
+    ),
+    'get_detail_data' => '1',
+  ),
+)

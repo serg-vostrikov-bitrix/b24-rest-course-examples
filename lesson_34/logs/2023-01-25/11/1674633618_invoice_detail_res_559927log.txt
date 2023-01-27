@@ -1,0 +1,148 @@
+array (
+  'invoice_detail_res' => 
+  array (
+    'result' => 
+    array (
+      'result' => 
+      array (
+        'invoice' => 
+        array (
+          'UF_QUOTE_ID' => NULL,
+          'UF_DEAL_ID' => NULL,
+          'UF_COMPANY_ID' => NULL,
+          'UF_CONTACT_ID' => NULL,
+          'UF_MYCOMPANY_ID' => '2314',
+          'UF_CRM_1511885085' => NULL,
+          'ID' => '88',
+          'LID' => 's1',
+          'ACCOUNT_NUMBER' => '0000045',
+          'PAY_SYSTEM_ID' => '2',
+          'DATE_INSERT' => '2021-10-29T03:00:00+03:00',
+          'DATE_UPDATE' => '2023-01-25T10:18:50+03:00',
+          'PERSON_TYPE_ID' => '2',
+          'PAYED' => 'N',
+          'DATE_PAYED' => '',
+          'EMP_PAYED_ID' => NULL,
+          'STATUS_ID' => 'N',
+          'DATE_STATUS' => '2021-11-16T11:51:14+03:00',
+          'EMP_STATUS_ID' => '1',
+          'DATE_MARKED' => '2021-11-16T11:51:04+03:00',
+          'REASON_MARKED' => 'FreshBooks',
+          'PRICE' => '600',
+          'CURRENCY' => 'USD',
+          'TAX_VALUE' => '0.00',
+          'USER_DESCRIPTION' => '',
+          'PAY_VOUCHER_NUM' => NULL,
+          'PAY_VOUCHER_DATE' => '',
+          'COMMENTS' => '',
+          'CREATED_BY' => '1',
+          'RESPONSIBLE_ID' => '1',
+          'DATE_PAY_BEFORE' => '2021-11-28T03:00:00+03:00',
+          'DATE_BILL' => '2021-10-29T03:00:00+03:00',
+          'IS_RECURRING' => 'N',
+          'ORDER_TOPIC' => 'Invoice 0000045',
+          'XML_ID' => 'FB_M2Yl2_2781716',
+          'RESPONSIBLE_LOGIN' => 'sallee@info-expert.ru',
+          'RESPONSIBLE_NAME' => 'Vadim',
+          'RESPONSIBLE_LAST_NAME' => 'Soluyanov',
+          'RESPONSIBLE_SECOND_NAME' => NULL,
+          'RESPONSIBLE_EMAIL' => 'sallee@info-expert.ru',
+          'RESPONSIBLE_WORK_POSITION' => '',
+          'RESPONSIBLE_PERSONAL_PHOTO' => '16',
+          'INVOICE_PROPERTIES' => 
+          array (
+            'COMPANY' => 'Info-Expert',
+            'COMPANY_ADR' => 'Saratov, Astrahanskaya st., 88
+ Saratov
+ 410056
+ United States',
+            'CONTACT_PERSON' => 'TEst Test2',
+            'EMAIL' => 'max_l@dev.info-expert.ru',
+            'PHONE' => '89030210070',
+          ),
+          'PRODUCT_ROWS' => 
+          array (
+            0 => 
+            array (
+              'ID' => '106',
+              'PRODUCT_ID' => 0,
+              'QUANTITY' => '1.0000',
+              'PRICE' => '100.0000',
+              'DISCOUNT_PRICE' => '0.0000',
+              'VAT_RATE' => '0.0000',
+              'VAT_INCLUDED' => 'Y',
+              'MEASURE_CODE' => '796',
+              'MEASURE_NAME' => 'pcs.',
+              'MODULE' => '',
+              'CATALOG_XML_ID' => '',
+              'PRODUCT_XML_ID' => 'CRM-zbgwjqfR',
+              'PRODUCT_NAME' => 'IT Support',
+              'CUSTOMIZED' => 'Y',
+            ),
+            1 => 
+            array (
+              'ID' => '108',
+              'PRODUCT_ID' => 0,
+              'QUANTITY' => '1.0000',
+              'PRICE' => '500.0000',
+              'DISCOUNT_PRICE' => '0.0000',
+              'VAT_RATE' => '0.0000',
+              'VAT_INCLUDED' => 'Y',
+              'MEASURE_CODE' => '796',
+              'MEASURE_NAME' => 'pcs.',
+              'MODULE' => '',
+              'CATALOG_XML_ID' => '',
+              'PRODUCT_XML_ID' => 'CRM-eD6LA212',
+              'PRODUCT_NAME' => 'Web Consulting',
+              'CUSTOMIZED' => 'Y',
+            ),
+          ),
+        ),
+      ),
+      'result_error' => 
+      array (
+        'company' => 
+        array (
+          'error' => '',
+          'error_description' => 'Not found',
+        ),
+        'contact' => 
+        array (
+          'error' => '',
+          'error_description' => 'Not found',
+        ),
+      ),
+      'result_total' => 
+      array (
+      ),
+      'result_next' => 
+      array (
+      ),
+      'result_time' => 
+      array (
+        'invoice' => 
+        array (
+          'start' => 1674633618.905153,
+          'finish' => 1674633618.929326,
+          'duration' => 0.02417302131652832,
+          'processing' => 0.023851871490478516,
+          'date_start' => '2023-01-25T11:00:18+03:00',
+          'date_finish' => '2023-01-25T11:00:18+03:00',
+          'operating_reset_at' => 1674634218,
+          'operating' => 0,
+        ),
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674633618.878767,
+      'finish' => 1674633618.945533,
+      'duration' => 0.06676602363586426,
+      'processing' => 0.040512800216674805,
+      'date_start' => '2023-01-25T11:00:18+03:00',
+      'date_finish' => '2023-01-25T11:00:18+03:00',
+      'operating_reset_at' => 1674634218,
+      'operating' => 0,
+    ),
+  ),
+)

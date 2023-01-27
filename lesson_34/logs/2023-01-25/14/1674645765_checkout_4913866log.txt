@@ -1,0 +1,19 @@
+array (
+  'request' => 
+  array (
+    'PAYMENT_ID' => '46',
+    'ORDER_ID' => '46',
+    'PAYMENT_SHOULD_PAY' => '100',
+    'PAYMENT_CURRENCY' => 'USD',
+    'MEMBER_ID' => 'aeab563ba48c3ca9de6127932c70a449',
+    'SERVICE_ID' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+    'BX_SYSTEM_PARAMS' => 
+    array (
+      'RETURN_URL' => 'https://ringcentral-test.bitrix24.com/pub/pay/MDAwMDAyNA/a9f156d82e53e9a84b672341fd153274/',
+      'PAYSYSTEM_ID' => '140',
+      'PAYMENT_ID' => '46',
+      'SUM' => '100',
+      'CURRENCY' => 'USD',
+    ),
+  ),
+)

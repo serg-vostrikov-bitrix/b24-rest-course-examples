@@ -1,0 +1,59 @@
+array (
+  'url' => 'https://oauth.bitrix.info/oauth/token/',
+  'info' => 
+  array (
+    'url' => 'https://oauth.bitrix.info/oauth/token/',
+    'content_type' => 'application/json',
+    'http_code' => 200,
+    'header_size' => 417,
+    'request_size' => 388,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.30374900000000005,
+    'namelookup_time' => 0.004238,
+    'connect_time' => 0.07157500000000006,
+    'pretransfer_time' => 0.22026500000000004,
+    'size_upload' => 212.0,
+    'size_download' => 456.0,
+    'speed_download' => 1501.0,
+    'speed_upload' => 697.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 212.0,
+    'starttransfer_time' => 0.30369900000000005,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '18.201.1.1',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 48662,
+  ),
+  'params' => 
+  array (
+    'this_auth' => 'Y',
+    'params' => 
+    array (
+      'client_id' => 'app.63c1374418a383.70467846',
+      'grant_type' => 'refresh_token',
+      'client_secret' => '91h89XYzZVIjYnzpCy6CGtgxWLfzIuMBzZWDpQzLjH9URiUGZe',
+      'refresh_token' => '8a64f863006084fb001475fc00000001000007e857ddf5418797e3676b3e2ca9ed5af3',
+    ),
+  ),
+  'result' => 
+  array (
+    'access_token' => '0cf5d063006084fb001475fc00000001000007c654a0e687fe4506ebb59cfe79261ab5',
+    'expires' => 1674638604,
+    'expires_in' => 3600,
+    'scope' => 'app',
+    'domain' => 'oauth.bitrix.info',
+    'server_endpoint' => 'https://oauth.bitrix.info/rest/',
+    'status' => 'F',
+    'client_endpoint' => 'https://ringcentral-test.bitrix24.com/rest/',
+    'member_id' => 'aeab563ba48c3ca9de6127932c70a449',
+    'user_id' => 1,
+    'refresh_token' => 'fc73f863006084fb001475fc000000010000078542bf7bcc0558e359c8f643e4eb931c',
+  ),
+)

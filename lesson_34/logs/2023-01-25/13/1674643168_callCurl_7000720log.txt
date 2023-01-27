@@ -1,0 +1,67 @@
+array (
+  'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.settings.payment.get.json',
+  'info' => 
+  array (
+    'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.settings.payment.get.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1209,
+    'request_size' => 328,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.12287899999999996,
+    'namelookup_time' => 0.004358,
+    'connect_time' => 0.004857,
+    'pretransfer_time' => 0.009689,
+    'size_upload' => 107.0,
+    'size_download' => 459.0,
+    'speed_download' => 3735.0,
+    'speed_upload' => 870.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 107.0,
+    'starttransfer_time' => 0.12282599999999999,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '54.83.26.42',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 45136,
+  ),
+  'params' => 
+  array (
+    'method' => 'sale.paysystem.settings.payment.get',
+    'params' => 
+    array (
+      'payment_id' => '24',
+      'pay_system_id' => '162',
+      'auth' => '7c10d163006084fb001475fc000000010000072ad26c28e9ad7e9e6b16a878ed9bb4ec',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      'PAYMENT_ID' => '24',
+      'ORDER_ID' => '22',
+      'PAYMENT_SHOULD_PAY' => 929,
+      'PAYMENT_CURRENCY' => 'USD',
+      'REST_MEMBER_ID' => 'aeab563ba48c3ca9de6127932c70a449',
+      'REST_SERVICE_ID' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+    ),
+    'time' => 
+    array (
+      'start' => 1674643168.813549,
+      'finish' => 1674643168.864334,
+      'duration' => 0.050785064697265625,
+      'processing' => 0.022091150283813477,
+      'date_start' => '2023-01-25T13:39:28+03:00',
+      'date_finish' => '2023-01-25T13:39:28+03:00',
+      'operating_reset_at' => 1674643768,
+      'operating' => 0,
+    ),
+  ),
+)

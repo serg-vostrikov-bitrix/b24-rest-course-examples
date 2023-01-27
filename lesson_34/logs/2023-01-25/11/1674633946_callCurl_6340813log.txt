@@ -1,0 +1,92 @@
+array (
+  'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.list.json',
+  'info' => 
+  array (
+    'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.list.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1209,
+    'request_size' => 298,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.097687,
+    'namelookup_time' => 0.004213,
+    'connect_time' => 0.005668,
+    'pretransfer_time' => 0.016199,
+    'size_upload' => 94.0,
+    'size_download' => 802.0,
+    'speed_download' => 8209.0,
+    'speed_upload' => 962.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 94.0,
+    'starttransfer_time' => 0.09764,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '54.83.26.42',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 41678,
+  ),
+  'params' => 
+  array (
+    'method' => 'sale.paysystem.list',
+    'params' => 
+    array (
+      'filter' => 
+      array (
+        'ID' => 156,
+      ),
+      'auth' => '9ae5d063006084fb001475fc00000001000007841b0adda35bb1b24172995a33575c7d',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      0 => 
+      array (
+        'ID' => '156',
+        'PERSON_TYPE_ID' => '2',
+        'NAME' => 'E-wallet (Invoice.Company)',
+        'PSA_NAME' => 'E-wallet (Invoice.Company)',
+        'SORT' => '100',
+        'DESCRIPTION' => NULL,
+        'ACTION_FILE' => 'my_ps_wallet',
+        'RESULT_FILE' => NULL,
+        'NEW_WINDOW' => 'N',
+        'PS_MODE' => NULL,
+        'HAVE_PAYMENT' => 'N',
+        'HAVE_ACTION' => 'N',
+        'HAVE_RESULT' => 'N',
+        'HAVE_PREPAY' => 'N',
+        'HAVE_PRICE' => 'N',
+        'HAVE_RESULT_RECEIVE' => 'Y',
+        'ENCODING' => NULL,
+        'ACTIVE' => 'Y',
+        'ALLOW_EDIT_PAYMENT' => 'Y',
+        'IS_CASH' => 'N',
+        'AUTO_CHANGE_1C' => 'N',
+        'CAN_PRINT_CHECK' => 'N',
+        'ENTITY_REGISTRY_TYPE' => 'CRM_INVOICE',
+        'XML_ID' => NULL,
+        'LOGOTYPE' => NULL,
+        'TARIFF' => NULL,
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674633946.873912,
+      'finish' => 1674633946.923741,
+      'duration' => 0.04982900619506836,
+      'processing' => 0.0023190975189208984,
+      'date_start' => '2023-01-25T11:05:46+03:00',
+      'date_finish' => '2023-01-25T11:05:46+03:00',
+      'operating_reset_at' => 1674634546,
+      'operating' => 0,
+    ),
+  ),
+)

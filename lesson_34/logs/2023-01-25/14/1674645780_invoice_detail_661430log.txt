@@ -1,0 +1,30 @@
+array (
+  'invoice_detail' => 
+  array (
+    'NAME' => '',
+    'ORDER_TOPIC' => 'Invoice 0000024',
+    'PAID' => 'N',
+    'PAYER_TYPE_ID' => 3,
+    'PAYER_ID' => NULL,
+    'PHONE' => NULL,
+    'MAIL' => 'ping.pong@test.net',
+    'DOCUMENT_NUMBER' => '0000024',
+    'ORDER_ID' => 46,
+    'DATE_BILL' => '2021-05-31T03:00:00+03:00',
+    'STATUS_ID' => 'S',
+    'BASKET' => 
+    array (
+      0 => 
+      array (
+        'ID' => 0,
+        'TITLE' => 'IT Support',
+        'QUANTITY' => '1.0000',
+        'PRICE' => '100.0000',
+        'CURRENCY' => 'USD',
+      ),
+    ),
+    'SHIPMENT' => 
+    array (
+    ),
+  ),
+)

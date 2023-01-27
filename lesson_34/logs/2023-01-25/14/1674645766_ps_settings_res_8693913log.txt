@@ -1,0 +1,25 @@
+array (
+  'PS settings res' => 
+  array (
+    'result' => 
+    array (
+      'PAYMENT_ID' => '46',
+      'ORDER_ID' => '46',
+      'PAYMENT_SHOULD_PAY' => 100,
+      'PAYMENT_CURRENCY' => 'USD',
+      'REST_MEMBER_ID' => 'aeab563ba48c3ca9de6127932c70a449',
+      'REST_SERVICE_ID' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+    ),
+    'time' => 
+    array (
+      'start' => 1674645766.901431,
+      'finish' => 1674645766.956202,
+      'duration' => 0.05477094650268555,
+      'processing' => 0.01943206787109375,
+      'date_start' => '2023-01-25T14:22:46+03:00',
+      'date_finish' => '2023-01-25T14:22:46+03:00',
+      'operating_reset_at' => 1674646366,
+      'operating' => 0,
+    ),
+  ),
+)

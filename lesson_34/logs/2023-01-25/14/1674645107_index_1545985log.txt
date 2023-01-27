@@ -1,0 +1,16 @@
+array (
+  'request' => 
+  array (
+    'DOMAIN' => 'ringcentral-test.bitrix24.com',
+    'PROTOCOL' => '1',
+    'LANG' => 'en',
+    'APP_SID' => '234c023d1f35256911dc5dd1f2602891',
+    'AUTH_ID' => '811cd163006084fb001475fc00000001909d07e31fe1ee7fff86a8b2a10046ab877ca0',
+    'AUTH_EXPIRES' => '3600',
+    'REFRESH_ID' => '719bf863006084fb001475fc00000001909d076c0847ae8c24385e896662a72f526822',
+    'member_id' => 'aeab563ba48c3ca9de6127932c70a449',
+    'status' => 'F',
+    'PLACEMENT' => 'DEFAULT',
+    'PLACEMENT_OPTIONS' => '{"IFRAME":"Y","IFRAME_TYPE":"SIDE_SLIDER","any":"96\\/"}',
+  ),
+)

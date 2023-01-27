@@ -1,0 +1,92 @@
+array (
+  'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.list.json',
+  'info' => 
+  array (
+    'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.list.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1209,
+    'request_size' => 298,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.075678,
+    'namelookup_time' => 0.004223,
+    'connect_time' => 0.005768,
+    'pretransfer_time' => 0.01994,
+    'size_upload' => 94.0,
+    'size_download' => 791.0,
+    'speed_download' => 10452.0,
+    'speed_upload' => 1242.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 94.0,
+    'starttransfer_time' => 0.075602,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '54.83.26.42',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 45134,
+  ),
+  'params' => 
+  array (
+    'method' => 'sale.paysystem.list',
+    'params' => 
+    array (
+      'filter' => 
+      array (
+        'ID' => 162,
+      ),
+      'auth' => '7c10d163006084fb001475fc000000010000072ad26c28e9ad7e9e6b16a878ed9bb4ec',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      0 => 
+      array (
+        'ID' => '162',
+        'PERSON_TYPE_ID' => '7',
+        'NAME' => 'E-wallet (Order.Contact)',
+        'PSA_NAME' => 'E-wallet (Order.Contact)',
+        'SORT' => '100',
+        'DESCRIPTION' => NULL,
+        'ACTION_FILE' => 'my_ps_wallet',
+        'RESULT_FILE' => NULL,
+        'NEW_WINDOW' => 'N',
+        'PS_MODE' => NULL,
+        'HAVE_PAYMENT' => 'N',
+        'HAVE_ACTION' => 'N',
+        'HAVE_RESULT' => 'N',
+        'HAVE_PREPAY' => 'N',
+        'HAVE_PRICE' => 'N',
+        'HAVE_RESULT_RECEIVE' => 'Y',
+        'ENCODING' => NULL,
+        'ACTIVE' => 'Y',
+        'ALLOW_EDIT_PAYMENT' => 'Y',
+        'IS_CASH' => 'N',
+        'AUTO_CHANGE_1C' => 'N',
+        'CAN_PRINT_CHECK' => 'N',
+        'ENTITY_REGISTRY_TYPE' => 'ORDER',
+        'XML_ID' => NULL,
+        'LOGOTYPE' => NULL,
+        'TARIFF' => NULL,
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674643168.708806,
+      'finish' => 1674643168.740866,
+      'duration' => 0.03205990791320801,
+      'processing' => 0.002808094024658203,
+      'date_start' => '2023-01-25T13:39:28+03:00',
+      'date_finish' => '2023-01-25T13:39:28+03:00',
+      'operating_reset_at' => 1674643768,
+      'operating' => 0,
+    ),
+  ),
+)

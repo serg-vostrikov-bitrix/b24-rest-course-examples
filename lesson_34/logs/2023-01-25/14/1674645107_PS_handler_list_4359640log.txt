@@ -1,0 +1,1702 @@
+array (
+  'PS_handler_list' => 
+  array (
+    'result' => 
+    array (
+      0 => 
+      array (
+        'ID' => '2',
+        'NAME' => 'stripe',
+        'CODE' => 'stripe_company',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/stripe/v1/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'secretid' => 'REST_SECRET_KEY',
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_SECRET_KEY' => 
+            array (
+              'NAME' => 'Secret Key',
+              'SORT' => '100',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'sk_test_5BarRmC8gVOg73UZ7H0WQ7IK',
+              ),
+            ),
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'pk_test_kvpuPbKlJUYaQ4lOCCGybRVo',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '2',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'ID' => '4',
+        'NAME' => 'stripe',
+        'CODE' => 'stripe_contact',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/stripe/v1/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'secretid' => 'REST_SECRET_KEY',
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_SECRET_KEY' => 
+            array (
+              'NAME' => 'Secret Key',
+              'SORT' => '100',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'sk_test_5BarRmC8gVOg73UZ7H0WQ7IK',
+              ),
+            ),
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'pk_test_kvpuPbKlJUYaQ4lOCCGybRVo',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '4',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'ID' => '5',
+        'NAME' => 'Authorize.net',
+        'CODE' => 'authorizenet_company',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/authorize/v2/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'secretid' => 'REST_SECRET_KEY',
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_SECRET_KEY' => 
+            array (
+              'NAME' => 'Secret Key',
+              'SORT' => '100',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '44L6SvZ8p33V2hTj',
+              ),
+            ),
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '9H39w2MukBfQ',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'company',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'ID' => '7',
+        'NAME' => 'Authorize.net',
+        'CODE' => 'authorizenet_contact',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/authorize/v2/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'secretid' => 'REST_SECRET_KEY',
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_SECRET_KEY' => 
+            array (
+              'NAME' => 'Secret Key',
+              'SORT' => '100',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '44L6SvZ8p33V2hTj',
+              ),
+            ),
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '9H39w2MukBfQ',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'contact',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'ID' => '9',
+        'NAME' => 'Pay by Paypal',
+        'CODE' => 'Pay by Paypal_company',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/paypal/v1/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '2',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'ID' => '11',
+        'NAME' => 'Pay by Paypal',
+        'CODE' => 'Pay by Paypal_contact',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/paypal/v1/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'publicid' => 'REST_PUBLIC_KEY',
+              'paymentid' => 'PAYMENT_ID',
+              'paymenttype' => 'PAYMENT_TYPE',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '150',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment Id',
+              'GROUP' => 'ORDER',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_TYPE' => 
+            array (
+              'NAME' => 'Payment Type',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '250',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '4',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'ID' => '15',
+        'NAME' => 'stripe',
+        'CODE' => 'stripe',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 
+            array (
+              'ID' => '15',
+              'NAME' => 'stripe',
+              'CODE' => 'stripe',
+              'SORT' => '100',
+              'SETTINGS' => 
+              array (
+                'FORM_DATA' => 
+                array (
+                  'ACTION_URI' => 'https://integration.bitrix.info/app/stripe/v5/handler.php',
+                  'METHOD' => 'POST',
+                  'PARAMS' => 
+                  array (
+                    'paymentid' => 'PAYMENT_ID',
+                    'paymentpay' => 'PAYMENT_SHOULD_PAY',
+                    'currency' => 'PAYMENT_CURRENCY',
+                    'memberid' => 'REST_MEMBER_ID',
+                  ),
+                ),
+                'CODES' => 
+                array (
+                  'PAYMENT_SHOULD_PAY' => 
+                  array (
+                    'NAME' => 'Payment Should Pay',
+                    'GROUP' => 'PAYMENT',
+                    'SORT' => '300',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'PAYMENT',
+                      'PROVIDER_VALUE' => 'SUM',
+                    ),
+                  ),
+                  'PAYMENT_ID' => 
+                  array (
+                    'NAME' => 'Payment ID',
+                    'GROUP' => 'PAYMENT',
+                    'SORT' => '300',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'PAYMENT',
+                      'PROVIDER_VALUE' => 'ID',
+                    ),
+                  ),
+                  'PAYMENT_CURRENCY' => 
+                  array (
+                    'NAME' => 'Payment Currency',
+                    'GROUP' => 'PAYMENT',
+                    'SORT' => '400',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'PAYMENT',
+                      'PROVIDER_VALUE' => 'CURRENCY',
+                    ),
+                  ),
+                  'REST_MEMBER_ID' => 
+                  array (
+                    'NAME' => 'Member Id',
+                    'SORT' => '500',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'VALUE',
+                      'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+                    ),
+                  ),
+                  'REST_PUBLISH_KEY' => 
+                  array (
+                    'NAME' => 'Publishable key',
+                    'SORT' => '600',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'VALUE',
+                      'PROVIDER_VALUE' => '',
+                    ),
+                  ),
+                  'REST_SECRET_KEY' => 
+                  array (
+                    'NAME' => 'Secret key',
+                    'SORT' => '600',
+                    'DEFAULT' => 
+                    array (
+                      'PROVIDER_KEY' => 'VALUE',
+                      'PROVIDER_VALUE' => '',
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'payment_id' => 'PAYMENT_ID',
+              'order_id' => 'ORDER_ID',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'member_id' => 'REST_MEMBER_ID',
+              'service_id' => 'REST_SERVICE_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_PUBLISH_KEY' => 
+            array (
+              'NAME' => 'Publishable key',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '',
+              ),
+            ),
+            'REST_SECRET_KEY' => 
+            array (
+              'NAME' => 'Secret key',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'd41d8cd98f00b204e9800998ecf8427e',
+              ),
+            ),
+          ),
+        ),
+      ),
+      7 => 
+      array (
+        'ID' => '17',
+        'NAME' => 'paypal_integration',
+        'CODE' => 'paypal_integration',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/paypal/v3/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'paymentid' => 'PAYMENT_ID',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'memberid' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_CLIENT_ID' => 
+            array (
+              'NAME' => 'Client ID',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'dfssf',
+              ),
+            ),
+            'REST_CLIENT_SECRET' => 
+            array (
+              'NAME' => 'Client Secret',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'sdfsfs',
+              ),
+            ),
+            'REST_ENVELOPMNET' => 
+            array (
+              'NAME' => 'Envelopmnet',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'sandbox',
+              ),
+            ),
+          ),
+        ),
+      ),
+      8 => 
+      array (
+        'ID' => '21',
+        'NAME' => 'braintree',
+        'CODE' => 'braintree',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration-dev.bitrix.info/app/braintree/v4/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'service_id' => 'REST_SERVICE_ID',
+              'order_id' => 'ORDER_ID',
+              'payment_id' => 'PAYMENT_ID',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'member_id' => 'REST_MEMBER_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_MERCHANT_ID' => 
+            array (
+              'NAME' => 'Merchant ID',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'jsng5g4hp3y7nn5f',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Merchant Account ID',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'erwwerwerwer',
+              ),
+            ),
+            'REST_PUBLIC_KEY' => 
+            array (
+              'NAME' => 'Public Key',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'h3b9qxwrwp68sf9r',
+              ),
+            ),
+            'REST_PRIVATE_KEY' => 
+            array (
+              'NAME' => 'Private Key',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '1c8b9da6689ec2d5325a71744091010e',
+              ),
+            ),
+            'REST_MODE' => 
+            array (
+              'NAME' => 'Transaction processing',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'sandbox',
+              ),
+            ),
+          ),
+        ),
+      ),
+      9 => 
+      array (
+        'ID' => '22',
+        'NAME' => 'mercadopago',
+        'CODE' => 'mercadopago',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'FORM_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/mercadopago/v2/handler.php',
+            'METHOD' => 'POST',
+            'PARAMS' => 
+            array (
+              'order_id' => 'ORDER_ID',
+              'payment_id' => 'PAYMENT_ID',
+              'paymentpay' => 'PAYMENT_SHOULD_PAY',
+              'currency' => 'PAYMENT_CURRENCY',
+              'member_id' => 'REST_MEMBER_ID',
+              'service_id' => 'REST_SERVICE_ID',
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '05f8e69c92ee5bc3aea1b9754b2e7cbc',
+              ),
+            ),
+            'REST_ACCESS_TOKEN' => 
+            array (
+              'NAME' => 'Access Token',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'TEST-7890419241720481-032500-3dbf3eac9265ac9fc10c286e609edb2b-419050525',
+              ),
+            ),
+          ),
+        ),
+      ),
+      10 => 
+      array (
+        'ID' => '24',
+        'NAME' => 'STRIPEINTEGRATION',
+        'CODE' => 'STRIPEINTEGRATION',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'CHECKOUT_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/stripeintegration/v1/handler.php',
+            'METHOD' => 'POST',
+            'FIELDS' => 
+            array (
+              'PAYMENT_ID' => 
+              array (
+                'CODE' => 'PAYMENT_ID',
+              ),
+              'ORDER_ID' => 
+              array (
+                'CODE' => 'ORDER_ID',
+              ),
+              'PAYMENT_SHOULD_PAY' => 
+              array (
+                'CODE' => 'PAYMENT_SHOULD_PAY',
+              ),
+              'PAYMENT_CURRENCY' => 
+              array (
+                'CODE' => 'PAYMENT_CURRENCY',
+              ),
+              'REST_MEMBER_ID' => 
+              array (
+                'CODE' => 'REST_MEMBER_ID',
+              ),
+              'REST_SERVICE_ID' => 
+              array (
+                'CODE' => 'REST_SERVICE_ID',
+              ),
+              'REST_METHOD_CODE' => 
+              array (
+                'CODE' => 'REST_METHOD_CODE',
+              ),
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '700',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '21504cc4c5c02f53c3490c46f6cc9e77',
+              ),
+            ),
+            'REST_METHOD_CODE' => 
+            array (
+              'NAME' => 'Payment Method',
+              'SORT' => '800',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'cards',
+              ),
+            ),
+          ),
+        ),
+      ),
+      11 => 
+      array (
+        'ID' => '26',
+        'NAME' => 'ingenico',
+        'CODE' => 'ingenico',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'CHECKOUT_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration.bitrix.info/app/ingenico/v3/handler.php',
+            'METHOD' => 'POST',
+            'FIELDS' => 
+            array (
+              'SERVICE_ID' => 
+              array (
+                'CODE' => 'REST_SERVICE_ID',
+              ),
+              'ORDER_ID' => 
+              array (
+                'CODE' => 'ORDER_ID',
+              ),
+              'PAYMENT_ID' => 
+              array (
+                'CODE' => 'PAYMENT_ID',
+              ),
+              'PAYMENTPAY' => 
+              array (
+                'CODE' => 'PAYMENT_SHOULD_PAY',
+              ),
+              'CURRENCY' => 
+              array (
+                'CODE' => 'PAYMENT_CURRENCY',
+              ),
+              'MEMBER_ID' => 
+              array (
+                'CODE' => 'REST_MEMBER_ID',
+              ),
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment amount',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '1063',
+              ),
+            ),
+            'REST_METHOD_CODE' => 
+            array (
+              'NAME' => 'Payment method',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'CARD',
+              ),
+            ),
+          ),
+        ),
+      ),
+      12 => 
+      array (
+        'ID' => '40',
+        'NAME' => 'Credit card',
+        'CODE' => 'my_ps_card',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'CHECKOUT_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration-dev.bitrix.info/exampleps_v1/checkout.php',
+            'METHOD' => 'POST',
+            'FIELDS' => 
+            array (
+              'PAYMENT_ID' => 
+              array (
+                'CODE' => 'PAYMENT_ID',
+              ),
+              'ORDER_ID' => 
+              array (
+                'CODE' => 'ORDER_ID',
+              ),
+              'PAYMENT_SHOULD_PAY' => 
+              array (
+                'CODE' => 'PAYMENT_SHOULD_PAY',
+              ),
+              'PAYMENT_CURRENCY' => 
+              array (
+                'CODE' => 'PAYMENT_CURRENCY',
+              ),
+              'MEMBER_ID' => 
+              array (
+                'CODE' => 'REST_MEMBER_ID',
+              ),
+              'SERVICE_ID' => 
+              array (
+                'CODE' => 'REST_SERVICE_ID',
+              ),
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '700',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+              ),
+            ),
+          ),
+        ),
+      ),
+      13 => 
+      array (
+        'ID' => '42',
+        'NAME' => 'Bank transfer',
+        'CODE' => 'my_ps_bank',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'CHECKOUT_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration-dev.bitrix.info/exampleps_v1/checkout.php',
+            'METHOD' => 'POST',
+            'FIELDS' => 
+            array (
+              'PAYMENT_ID' => 
+              array (
+                'CODE' => 'PAYMENT_ID',
+              ),
+              'ORDER_ID' => 
+              array (
+                'CODE' => 'ORDER_ID',
+              ),
+              'PAYMENT_SHOULD_PAY' => 
+              array (
+                'CODE' => 'PAYMENT_SHOULD_PAY',
+              ),
+              'PAYMENT_CURRENCY' => 
+              array (
+                'CODE' => 'PAYMENT_CURRENCY',
+              ),
+              'MEMBER_ID' => 
+              array (
+                'CODE' => 'REST_MEMBER_ID',
+              ),
+              'SERVICE_ID' => 
+              array (
+                'CODE' => 'REST_SERVICE_ID',
+              ),
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '700',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+              ),
+            ),
+          ),
+        ),
+      ),
+      14 => 
+      array (
+        'ID' => '44',
+        'NAME' => 'E-wallet',
+        'CODE' => 'my_ps_wallet',
+        'SORT' => '100',
+        'SETTINGS' => 
+        array (
+          'IFRAME_DATA' => 
+          array (
+            'ACTION_URI' => 'https://integration-dev.bitrix.info/exampleps_v1/iframe.php',
+            'METHOD' => 'POST',
+            'FIELDS' => 
+            array (
+              'PAYMENT_ID' => 
+              array (
+                'CODE' => 'PAYMENT_ID',
+              ),
+              'ORDER_ID' => 
+              array (
+                'CODE' => 'ORDER_ID',
+              ),
+              'PAYMENT_SHOULD_PAY' => 
+              array (
+                'CODE' => 'PAYMENT_SHOULD_PAY',
+              ),
+              'PAYMENT_CURRENCY' => 
+              array (
+                'CODE' => 'PAYMENT_CURRENCY',
+              ),
+              'MEMBER_ID' => 
+              array (
+                'CODE' => 'REST_MEMBER_ID',
+              ),
+              'SERVICE_ID' => 
+              array (
+                'CODE' => 'REST_SERVICE_ID',
+              ),
+            ),
+          ),
+          'CODES' => 
+          array (
+            'PAYMENT_ID' => 
+            array (
+              'NAME' => 'Payment ID',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '200',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'ORDER_ID' => 
+            array (
+              'NAME' => 'Order ID',
+              'GROUP' => 'ORDER',
+              'SORT' => '300',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'ORDER',
+                'PROVIDER_VALUE' => 'ID',
+              ),
+            ),
+            'PAYMENT_SHOULD_PAY' => 
+            array (
+              'NAME' => 'Payment Should Pay',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '400',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'SUM',
+              ),
+            ),
+            'PAYMENT_CURRENCY' => 
+            array (
+              'NAME' => 'Payment Currency',
+              'GROUP' => 'PAYMENT',
+              'SORT' => '500',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'PAYMENT',
+                'PROVIDER_VALUE' => 'CURRENCY',
+              ),
+            ),
+            'REST_MEMBER_ID' => 
+            array (
+              'NAME' => 'Member Id',
+              'SORT' => '600',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => 'aeab563ba48c3ca9de6127932c70a449',
+              ),
+            ),
+            'REST_SERVICE_ID' => 
+            array (
+              'NAME' => 'Service ID',
+              'SORT' => '700',
+              'DEFAULT' => 
+              array (
+                'PROVIDER_KEY' => 'VALUE',
+                'PROVIDER_VALUE' => '1b2a4edfc5028a6447e5bf1e948dfe80',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674645107.289694,
+      'finish' => 1674645107.815347,
+      'duration' => 0.5256528854370117,
+      'processing' => 0.041552066802978516,
+      'date_start' => '2023-01-25T14:11:47+03:00',
+      'date_finish' => '2023-01-25T14:11:47+03:00',
+      'operating_reset_at' => 1674645707,
+      'operating' => 0,
+    ),
+  ),
+)

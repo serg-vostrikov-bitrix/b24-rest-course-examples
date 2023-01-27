@@ -1,0 +1,59 @@
+array (
+  'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.pay.invoice.json',
+  'info' => 
+  array (
+    'url' => 'https://ringcentral-test.bitrix24.com/rest/sale.paysystem.pay.invoice.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 757,
+    'request_size' => 328,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 0.650903,
+    'namelookup_time' => 0.012407,
+    'connect_time' => 0.012946,
+    'pretransfer_time' => 0.024605,
+    'size_upload' => 116.0,
+    'size_download' => 86.0,
+    'speed_download' => 132.0,
+    'speed_upload' => 178.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 116.0,
+    'starttransfer_time' => 0.650853,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '54.83.26.42',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '10.0.1.211',
+    'local_port' => 48534,
+  ),
+  'params' => 
+  array (
+    'method' => 'sale.paysystem.pay.invoice',
+    'params' => 
+    array (
+      'invoice_id' => 46,
+      'bx_rest_handler' => 'my_ps_card',
+      'auth' => '161fd163006084fb001475fc000000010000073d1511ccf48e3f5c8b35ce10cb163a11',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => true,
+    'time' => 
+    array (
+      'start' => 1674716134.228848,
+      'finish' => 1674716135.076813,
+      'duration' => 0.8479650020599365,
+      'processing' => 0.3764619827270508,
+      'date_start' => '2023-01-26T09:55:34+03:00',
+      'date_finish' => '2023-01-26T09:55:35+03:00',
+      'operating_reset_at' => 1674716734,
+      'operating' => 0,
+    ),
+  ),
+)

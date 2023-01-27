@@ -1,0 +1,130 @@
+array (
+  'invoice_detail_res' => 
+  array (
+    'result' => 
+    array (
+      'result' => 
+      array (
+        'invoice' => 
+        array (
+          'UF_QUOTE_ID' => NULL,
+          'UF_DEAL_ID' => NULL,
+          'UF_COMPANY_ID' => NULL,
+          'UF_CONTACT_ID' => NULL,
+          'UF_MYCOMPANY_ID' => '2314',
+          'UF_CRM_1511885085' => NULL,
+          'ID' => '46',
+          'LID' => 's1',
+          'ACCOUNT_NUMBER' => '0000024',
+          'PAY_SYSTEM_ID' => '2',
+          'DATE_INSERT' => '2021-05-31T03:00:00+03:00',
+          'DATE_UPDATE' => '2023-01-25T14:22:47+03:00',
+          'PERSON_TYPE_ID' => '2',
+          'PAYED' => 'N',
+          'DATE_PAYED' => '',
+          'EMP_PAYED_ID' => NULL,
+          'STATUS_ID' => 'S',
+          'DATE_STATUS' => '2021-11-16T11:51:10+03:00',
+          'EMP_STATUS_ID' => '1',
+          'DATE_MARKED' => '2021-11-16T11:51:04+03:00',
+          'REASON_MARKED' => 'FreshBooks',
+          'PRICE' => '100',
+          'CURRENCY' => 'USD',
+          'TAX_VALUE' => '0.00',
+          'USER_DESCRIPTION' => '',
+          'PAY_VOUCHER_NUM' => NULL,
+          'PAY_VOUCHER_DATE' => '',
+          'COMMENTS' => '',
+          'CREATED_BY' => '1',
+          'RESPONSIBLE_ID' => '1',
+          'DATE_PAY_BEFORE' => '2021-06-30T03:00:00+03:00',
+          'DATE_BILL' => '2021-05-31T03:00:00+03:00',
+          'IS_RECURRING' => 'N',
+          'ORDER_TOPIC' => 'Invoice 0000024',
+          'XML_ID' => 'FB_M2Yl2_2665978',
+          'RESPONSIBLE_LOGIN' => 'sallee@info-expert.ru',
+          'RESPONSIBLE_NAME' => 'Vadim',
+          'RESPONSIBLE_LAST_NAME' => 'Soluyanov',
+          'RESPONSIBLE_SECOND_NAME' => NULL,
+          'RESPONSIBLE_EMAIL' => 'sallee@info-expert.ru',
+          'RESPONSIBLE_WORK_POSITION' => '',
+          'RESPONSIBLE_PERSONAL_PHOTO' => '16',
+          'INVOICE_PROPERTIES' => 
+          array (
+            'COMPANY' => 'Ping',
+            'COMPANY_ADR' => 'Somthing Str.
+ Nevermind
+ Neverland',
+            'CONTACT_PERSON' => 'Ping',
+            'EMAIL' => 'ping.pong@test.net',
+            'PHONE' => NULL,
+          ),
+          'PRODUCT_ROWS' => 
+          array (
+            0 => 
+            array (
+              'ID' => '60',
+              'PRODUCT_ID' => 0,
+              'QUANTITY' => '1.0000',
+              'PRICE' => '100.0000',
+              'DISCOUNT_PRICE' => '0.0000',
+              'VAT_RATE' => '0.0000',
+              'VAT_INCLUDED' => 'Y',
+              'MEASURE_CODE' => '796',
+              'MEASURE_NAME' => 'pcs.',
+              'MODULE' => '',
+              'CATALOG_XML_ID' => '',
+              'PRODUCT_XML_ID' => 'CRM-AOvi0h8b',
+              'PRODUCT_NAME' => 'IT Support',
+              'CUSTOMIZED' => 'Y',
+            ),
+          ),
+        ),
+      ),
+      'result_error' => 
+      array (
+        'company' => 
+        array (
+          'error' => '',
+          'error_description' => 'Not found',
+        ),
+        'contact' => 
+        array (
+          'error' => '',
+          'error_description' => 'Not found',
+        ),
+      ),
+      'result_total' => 
+      array (
+      ),
+      'result_next' => 
+      array (
+      ),
+      'result_time' => 
+      array (
+        'invoice' => 
+        array (
+          'start' => 1674645859.409052,
+          'finish' => 1674645859.432521,
+          'duration' => 0.023469209671020508,
+          'processing' => 0.023123979568481445,
+          'date_start' => '2023-01-25T14:24:19+03:00',
+          'date_finish' => '2023-01-25T14:24:19+03:00',
+          'operating_reset_at' => 1674646459,
+          'operating' => 0,
+        ),
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1674645859.382609,
+      'finish' => 1674645859.448782,
+      'duration' => 0.06617307662963867,
+      'processing' => 0.03976798057556152,
+      'date_start' => '2023-01-25T14:24:19+03:00',
+      'date_finish' => '2023-01-25T14:24:19+03:00',
+      'operating_reset_at' => 1674646459,
+      'operating' => 0,
+    ),
+  ),
+)
